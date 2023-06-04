@@ -7,6 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D2613A42A03118D00CE1ECC /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2613A32A03118D00CE1ECC /* RootView.swift */; };
+		3D277E412A008AF8000EF7C6 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D277E402A008AF8000EF7C6 /* Extension.swift */; };
+		3D277E482A008B53000EF7C6 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D277E432A008B53000EF7C6 /* Lato-Thin.ttf */; };
+		3D277E492A008B53000EF7C6 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D277E442A008B53000EF7C6 /* Lato-Bold.ttf */; };
+		3D277E4A2A008B53000EF7C6 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D277E452A008B53000EF7C6 /* Lato-Black.ttf */; };
+		3D277E4B2A008B53000EF7C6 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D277E462A008B53000EF7C6 /* Lato-Regular.ttf */; };
+		3D277E4C2A008B53000EF7C6 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D277E472A008B53000EF7C6 /* Lato-Light.ttf */; };
+		3D2A13E42A01A90D008026C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A13E32A01A90D008026C4 /* GoogleService-Info.plist */; };
+		3D2A13FF2A01B307008026C4 /* SignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A13FE2A01B307008026C4 /* SignUpPage.swift */; };
+		3D58124F2A053DE2000FF4DC /* UserTradeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D58124E2A053DE1000FF4DC /* UserTradeModel.swift */; };
+		3D71B8BC2A05A60A008101FF /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B8BB2A05A60A008101FF /* Species.swift */; };
+		3D71B8BF2A05A6AF008101FF /* SpeciesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B8BE2A05A6AF008101FF /* SpeciesViewModel.swift */; };
+		3D71B8C12A05A71D008101FF /* SpeciesDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B8C02A05A71D008101FF /* SpeciesDetailViewModel.swift */; };
+		3D71B8C32A05A924008101FF /* PlantListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B8C22A05A924008101FF /* PlantListRowView.swift */; };
+		3D71B8C52A05A976008101FF /* SearchPlantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B8C42A05A976008101FF /* SearchPlantsView.swift */; };
+		3D71B8C72A05A9BF008101FF /* PlantInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B8C62A05A9BF008101FF /* PlantInfoView.swift */; };
+		3D71B8C92A05ABAD008101FF /*  Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B8C82A05ABAD008101FF /*  Landmark.swift */; };
+		3D71B8CB2A05ABEF008101FF /* LandmarkAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B8CA2A05ABEF008101FF /* LandmarkAnnotation.swift */; };
+		3D71B8CD2A05AC3E008101FF /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B8CC2A05AC3E008101FF /* LocationManager.swift */; };
+		3D71B8CF2A05AC8F008101FF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B8CE2A05AC8F008101FF /* MapView.swift */; };
+		3D71B8D12A05ACBF008101FF /* PlaceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B8D02A05ACBF008101FF /* PlaceListView.swift */; };
+		3D71B8D32A05ACF5008101FF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B8D22A05ACF5008101FF /* HomeView.swift */; };
+		3D71B8D52A05AD43008101FF /* LocationRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B8D42A05AD43008101FF /* LocationRequestView.swift */; };
+		3D71B8D72A05DDD0008101FF /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B8D62A05DDD0008101FF /* UserViewModel.swift */; };
+		3D71B8D92A05EC24008101FF /* MyPlantsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B8D82A05EC24008101FF /* MyPlantsModel.swift */; };
+		3D71B8DC2A05FA79008101FF /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3D71B8DB2A05FA79008101FF /* SDWebImageSwiftUI */; };
+		3D71B8DF2A061BBC008101FF /* SwipeCellKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3D71B8DE2A061BBC008101FF /* SwipeCellKit */; };
+		3D71B8E12A062822008101FF /* UserAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B8E02A062822008101FF /* UserAccountView.swift */; };
+		3D9DB6E32A03F1EA0040106E /* MyPlantsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9DB6E22A03F1EA0040106E /* MyPlantsPage.swift */; };
+		3D9DB6E52A0404160040106E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9DB6E42A0404160040106E /* SettingsView.swift */; };
+		3D9DB6E72A042CE30040106E /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9DB6E62A042CE30040106E /* UserManager.swift */; };
+		3D9DB6EA2A0444400040106E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3D9DB6E92A0444400040106E /* FirebaseAnalytics */; };
+		3D9DB6EC2A0444400040106E /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3D9DB6EB2A0444400040106E /* FirebaseAnalyticsSwift */; };
+		3D9DB6EE2A0444400040106E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3D9DB6ED2A0444400040106E /* FirebaseAuth */; };
+		3D9DB6F02A0444400040106E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3D9DB6EF2A0444400040106E /* FirebaseFirestore */; };
+		3D9DB6F22A0444400040106E /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3D9DB6F12A0444400040106E /* FirebaseFirestoreSwift */; };
+		3D9DB6F42A0444400040106E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3D9DB6F32A0444400040106E /* FirebaseStorage */; };
+		3D9DB6F62A0451680040106E /* PlantTradePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9DB6F52A0451670040106E /* PlantTradePage.swift */; };
+		3D9DB6F82A04567A0040106E /* CreateNewTrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9DB6F72A04567A0040106E /* CreateNewTrade.swift */; };
+		3D9DB6FC2A045EA30040106E /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9DB6FB2A045EA30040106E /* ImagePicker.swift */; };
+		3DB3FABA2A037D8C007201B2 /* LogInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB3FAB92A037D89007201B2 /* LogInPage.swift */; };
+		3DB3FABC2A038E4B007201B2 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB3FABB2A038E4B007201B2 /* AuthView.swift */; };
+		3DB89F452A029FA80045AF80 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB89F442A029FA80045AF80 /* Validation.swift */; };
 		8A505EEE29FE322C00A0EEC3 /* BlossomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A505EED29FE322C00A0EEC3 /* BlossomApp.swift */; };
 		8A505EF029FE322C00A0EEC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A505EEF29FE322C00A0EEC3 /* ContentView.swift */; };
 		8A505EF229FE322C00A0EEC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A505EF129FE322C00A0EEC3 /* Assets.xcassets */; };
@@ -14,6 +57,42 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D2613A32A03118D00CE1ECC /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		3D277E402A008AF8000EF7C6 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		3D277E432A008B53000EF7C6 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		3D277E442A008B53000EF7C6 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		3D277E452A008B53000EF7C6 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		3D277E462A008B53000EF7C6 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		3D277E472A008B53000EF7C6 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		3D277E4D2A008B83000EF7C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D2A13E32A01A90D008026C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3D2A13FE2A01B307008026C4 /* SignUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPage.swift; sourceTree = "<group>"; };
+		3D58124E2A053DE1000FF4DC /* UserTradeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTradeModel.swift; sourceTree = "<group>"; };
+		3D71B8BB2A05A60A008101FF /* Species.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
+		3D71B8BE2A05A6AF008101FF /* SpeciesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesViewModel.swift; sourceTree = "<group>"; };
+		3D71B8C02A05A71D008101FF /* SpeciesDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesDetailViewModel.swift; sourceTree = "<group>"; };
+		3D71B8C22A05A924008101FF /* PlantListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantListRowView.swift; sourceTree = "<group>"; };
+		3D71B8C42A05A976008101FF /* SearchPlantsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPlantsView.swift; sourceTree = "<group>"; };
+		3D71B8C62A05A9BF008101FF /* PlantInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantInfoView.swift; sourceTree = "<group>"; };
+		3D71B8C82A05ABAD008101FF /*  Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Landmark.swift"; sourceTree = "<group>"; };
+		3D71B8CA2A05ABEF008101FF /* LandmarkAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkAnnotation.swift; sourceTree = "<group>"; };
+		3D71B8CC2A05AC3E008101FF /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		3D71B8CE2A05AC8F008101FF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		3D71B8D02A05ACBF008101FF /* PlaceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListView.swift; sourceTree = "<group>"; };
+		3D71B8D22A05ACF5008101FF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3D71B8D42A05AD43008101FF /* LocationRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRequestView.swift; sourceTree = "<group>"; };
+		3D71B8D62A05DDD0008101FF /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		3D71B8D82A05EC24008101FF /* MyPlantsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlantsModel.swift; sourceTree = "<group>"; };
+		3D71B8E02A062822008101FF /* UserAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountView.swift; sourceTree = "<group>"; };
+		3D9DB6E22A03F1EA0040106E /* MyPlantsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlantsPage.swift; sourceTree = "<group>"; };
+		3D9DB6E42A0404160040106E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3D9DB6E62A042CE30040106E /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		3D9DB6F52A0451670040106E /* PlantTradePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTradePage.swift; sourceTree = "<group>"; };
+		3D9DB6F72A04567A0040106E /* CreateNewTrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewTrade.swift; sourceTree = "<group>"; };
+		3D9DB6FB2A045EA30040106E /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		3DB3FAB92A037D89007201B2 /* LogInPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPage.swift; sourceTree = "<group>"; };
+		3DB3FABB2A038E4B007201B2 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		3DB89F442A029FA80045AF80 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
 		8A505EEA29FE322B00A0EEC3 /* Blossom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blossom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A505EED29FE322C00A0EEC3 /* BlossomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlossomApp.swift; sourceTree = "<group>"; };
 		8A505EEF29FE322C00A0EEC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,12 +105,97 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D71B8DC2A05FA79008101FF /* SDWebImageSwiftUI in Frameworks */,
+				3D9DB6F22A0444400040106E /* FirebaseFirestoreSwift in Frameworks */,
+				3D9DB6EC2A0444400040106E /* FirebaseAnalyticsSwift in Frameworks */,
+				3D9DB6F02A0444400040106E /* FirebaseFirestore in Frameworks */,
+				3D71B8DF2A061BBC008101FF /* SwipeCellKit in Frameworks */,
+				3D9DB6EE2A0444400040106E /* FirebaseAuth in Frameworks */,
+				3D9DB6EA2A0444400040106E /* FirebaseAnalytics in Frameworks */,
+				3D9DB6F42A0444400040106E /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D277E422A008B53000EF7C6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3D277E432A008B53000EF7C6 /* Lato-Thin.ttf */,
+				3D277E442A008B53000EF7C6 /* Lato-Bold.ttf */,
+				3D277E452A008B53000EF7C6 /* Lato-Black.ttf */,
+				3D277E462A008B53000EF7C6 /* Lato-Regular.ttf */,
+				3D277E472A008B53000EF7C6 /* Lato-Light.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3D2A13F22A01B0C2008026C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3DB3FAB92A037D89007201B2 /* LogInPage.swift */,
+				3DB3FABB2A038E4B007201B2 /* AuthView.swift */,
+				3D2613A32A03118D00CE1ECC /* RootView.swift */,
+				3D2A13FE2A01B307008026C4 /* SignUpPage.swift */,
+				3D9DB6F72A04567A0040106E /* CreateNewTrade.swift */,
+				3D9DB6E22A03F1EA0040106E /* MyPlantsPage.swift */,
+				3D9DB6E42A0404160040106E /* SettingsView.swift */,
+				3D9DB6F52A0451670040106E /* PlantTradePage.swift */,
+				3D71B8C22A05A924008101FF /* PlantListRowView.swift */,
+				3D71B8C42A05A976008101FF /* SearchPlantsView.swift */,
+				3D71B8C62A05A9BF008101FF /* PlantInfoView.swift */,
+				3D71B8CE2A05AC8F008101FF /* MapView.swift */,
+				3D71B8D02A05ACBF008101FF /* PlaceListView.swift */,
+				3D71B8D22A05ACF5008101FF /* HomeView.swift */,
+				8A505EEF29FE322C00A0EEC3 /* ContentView.swift */,
+				3D71B8D42A05AD43008101FF /* LocationRequestView.swift */,
+				3D71B8E02A062822008101FF /* UserAccountView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D2A14022A01D7D8008026C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D58124E2A053DE1000FF4DC /* UserTradeModel.swift */,
+				3D71B8BB2A05A60A008101FF /* Species.swift */,
+				3D71B8C82A05ABAD008101FF /*  Landmark.swift */,
+				3D71B8CA2A05ABEF008101FF /* LandmarkAnnotation.swift */,
+				3D71B8D82A05EC24008101FF /* MyPlantsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3D2A14062A01D9EC008026C4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				3D9DB6E62A042CE30040106E /* UserManager.swift */,
+				3D71B8CC2A05AC3E008101FF /* LocationManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		3D71B8BD2A05A67B008101FF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3D71B8BE2A05A6AF008101FF /* SpeciesViewModel.swift */,
+				3D71B8C02A05A71D008101FF /* SpeciesDetailViewModel.swift */,
+				3D71B8D62A05DDD0008101FF /* UserViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3DB89F432A029F8B0045AF80 /* Extend */ = {
+			isa = PBXGroup;
+			children = (
+				3D277E402A008AF8000EF7C6 /* Extension.swift */,
+				3DB89F442A029FA80045AF80 /* Validation.swift */,
+				3D9DB6FB2A045EA30040106E /* ImagePicker.swift */,
+			);
+			path = Extend;
+			sourceTree = "<group>";
+		};
 		8A505EE129FE322B00A0EEC3 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +215,16 @@
 		8A505EEC29FE322B00A0EEC3 /* Blossom */ = {
 			isa = PBXGroup;
 			children = (
+				3D71B8BD2A05A67B008101FF /* ViewModels */,
+				3D2A14062A01D9EC008026C4 /* Manager */,
+				3D2A14022A01D7D8008026C4 /* Model */,
+				3D277E422A008B53000EF7C6 /* Fonts */,
+				3D2A13F22A01B0C2008026C4 /* View */,
+				3D277E4D2A008B83000EF7C6 /* Info.plist */,
+				3DB89F432A029F8B0045AF80 /* Extend */,
 				8A505EED29FE322C00A0EEC3 /* BlossomApp.swift */,
-				8A505EEF29FE322C00A0EEC3 /* ContentView.swift */,
 				8A505EF129FE322C00A0EEC3 /* Assets.xcassets */,
+				3D2A13E32A01A90D008026C4 /* GoogleService-Info.plist */,
 				8A505EF329FE322C00A0EEC3 /* Preview Content */,
 			);
 			path = Blossom;
@@ -83,6 +254,16 @@
 			dependencies = (
 			);
 			name = Blossom;
+			packageProductDependencies = (
+				3D9DB6E92A0444400040106E /* FirebaseAnalytics */,
+				3D9DB6EB2A0444400040106E /* FirebaseAnalyticsSwift */,
+				3D9DB6ED2A0444400040106E /* FirebaseAuth */,
+				3D9DB6EF2A0444400040106E /* FirebaseFirestore */,
+				3D9DB6F12A0444400040106E /* FirebaseFirestoreSwift */,
+				3D9DB6F32A0444400040106E /* FirebaseStorage */,
+				3D71B8DB2A05FA79008101FF /* SDWebImageSwiftUI */,
+				3D71B8DE2A061BBC008101FF /* SwipeCellKit */,
+			);
 			productName = Blossom;
 			productReference = 8A505EEA29FE322B00A0EEC3 /* Blossom.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +292,11 @@
 				Base,
 			);
 			mainGroup = 8A505EE129FE322B00A0EEC3;
+			packageReferences = (
+				3D9DB6E82A0444400040106E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				3D71B8DA2A05FA79008101FF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				3D71B8DD2A061BBC008101FF /* XCRemoteSwiftPackageReference "SwipeCellKit" */,
+			);
 			productRefGroup = 8A505EEB29FE322B00A0EEC3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +312,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A505EF529FE322C00A0EEC3 /* Preview Assets.xcassets in Resources */,
+				3D2A13E42A01A90D008026C4 /* GoogleService-Info.plist in Resources */,
+				3D277E4B2A008B53000EF7C6 /* Lato-Regular.ttf in Resources */,
+				3D277E482A008B53000EF7C6 /* Lato-Thin.ttf in Resources */,
 				8A505EF229FE322C00A0EEC3 /* Assets.xcassets in Resources */,
+				3D277E4A2A008B53000EF7C6 /* Lato-Black.ttf in Resources */,
+				3D277E492A008B53000EF7C6 /* Lato-Bold.ttf in Resources */,
+				3D277E4C2A008B53000EF7C6 /* Lato-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +329,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D277E412A008AF8000EF7C6 /* Extension.swift in Sources */,
 				8A505EF029FE322C00A0EEC3 /* ContentView.swift in Sources */,
+				3D9DB6E72A042CE30040106E /* UserManager.swift in Sources */,
+				3D9DB6E32A03F1EA0040106E /* MyPlantsPage.swift in Sources */,
+				3D71B8BF2A05A6AF008101FF /* SpeciesViewModel.swift in Sources */,
+				3D71B8D92A05EC24008101FF /* MyPlantsModel.swift in Sources */,
+				3D71B8C32A05A924008101FF /* PlantListRowView.swift in Sources */,
+				3D71B8CF2A05AC8F008101FF /* MapView.swift in Sources */,
+				3DB3FABA2A037D8C007201B2 /* LogInPage.swift in Sources */,
+				3D2613A42A03118D00CE1ECC /* RootView.swift in Sources */,
+				3D71B8C72A05A9BF008101FF /* PlantInfoView.swift in Sources */,
+				3D9DB6F82A04567A0040106E /* CreateNewTrade.swift in Sources */,
+				3D71B8D32A05ACF5008101FF /* HomeView.swift in Sources */,
+				3D71B8D72A05DDD0008101FF /* UserViewModel.swift in Sources */,
+				3D71B8D52A05AD43008101FF /* LocationRequestView.swift in Sources */,
+				3D71B8CD2A05AC3E008101FF /* LocationManager.swift in Sources */,
+				3D71B8CB2A05ABEF008101FF /* LandmarkAnnotation.swift in Sources */,
+				3DB3FABC2A038E4B007201B2 /* AuthView.swift in Sources */,
+				3D71B8C52A05A976008101FF /* SearchPlantsView.swift in Sources */,
+				3D2A13FF2A01B307008026C4 /* SignUpPage.swift in Sources */,
+				3D71B8D12A05ACBF008101FF /* PlaceListView.swift in Sources */,
+				3D9DB6F62A0451680040106E /* PlantTradePage.swift in Sources */,
+				3D71B8E12A062822008101FF /* UserAccountView.swift in Sources */,
+				3D9DB6E52A0404160040106E /* SettingsView.swift in Sources */,
+				3D9DB6FC2A045EA30040106E /* ImagePicker.swift in Sources */,
+				3DB89F452A029FA80045AF80 /* Validation.swift in Sources */,
 				8A505EEE29FE322C00A0EEC3 /* BlossomApp.swift in Sources */,
+				3D71B8C92A05ABAD008101FF /*  Landmark.swift in Sources */,
+				3D71B8BC2A05A60A008101FF /* Species.swift in Sources */,
+				3D71B8C12A05A71D008101FF /* SpeciesDetailViewModel.swift in Sources */,
+				3D58124F2A053DE2000FF4DC /* UserTradeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,9 +490,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Blossom/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Blossom/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -297,9 +519,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Blossom/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Blossom/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -337,6 +560,76 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D71B8DA2A05FA79008101FF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		3D71B8DD2A061BBC008101FF /* XCRemoteSwiftPackageReference "SwipeCellKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwipeCellKit/SwipeCellKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		3D9DB6E82A0444400040106E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D71B8DB2A05FA79008101FF /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D71B8DA2A05FA79008101FF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		3D71B8DE2A061BBC008101FF /* SwipeCellKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D71B8DD2A061BBC008101FF /* XCRemoteSwiftPackageReference "SwipeCellKit" */;
+			productName = SwipeCellKit;
+		};
+		3D9DB6E92A0444400040106E /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D9DB6E82A0444400040106E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		3D9DB6EB2A0444400040106E /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D9DB6E82A0444400040106E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		3D9DB6ED2A0444400040106E /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D9DB6E82A0444400040106E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		3D9DB6EF2A0444400040106E /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D9DB6E82A0444400040106E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		3D9DB6F12A0444400040106E /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D9DB6E82A0444400040106E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		3D9DB6F32A0444400040106E /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D9DB6E82A0444400040106E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8A505EE229FE322B00A0EEC3 /* Project object */;
 }

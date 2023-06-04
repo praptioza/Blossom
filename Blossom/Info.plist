@@ -4,11 +4,20 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Lato-Black.ttf</string>
-		<string>Lato-Bold.ttf</string>
-		<string>Lato-Regular.ttf</string>
-		<string>Lato-Light.ttf</string>
 		<string>Lato-Thin.ttf</string>
+		<string>Lato-Bold.ttf</string>
+		<string>Lato-Black.ttf</string>
+		<string>Lato-Regular.ttf</string>
+		<string>Lato-Light</string>
 	</array>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>LaunchColor</string>
+		<key>UIImageName</key>
+		<string>LaunchImage</string>
+		<key>UILaunchScreen</key>
+		<dict/>
+	</dict>
 </dict>
 </plist>

@@ -7,14 +7,19 @@
 
 import SwiftUI
 
+
+class TabBarVisibility: ObservableObject {
+    @Published var isVisible = true
+}
+
 struct ContentView: View {
-    @ObservedObject var vm = SpeciesViewModel()
     @State private var selectedTab = 0
-    
+    @AppStorage("uid") var userID : String = ""
+    @ObservedObject var vm = SpeciesViewModel()
+    @ObservedObject var locationManager = LocationManager.shared
+    @State private var locationAuthorized = false
     init(){
         let appearance = UINavigationBarAppearance()
-//        UITabBar.appearance().backgroundColor = UIColor(Color.pinkColor.opacity(0.5))
-        UITabBar.appearance().barTintColor = UIColor(Color.pinkColor.opacity(0.5))
         UITabBar.appearance().unselectedItemTintColor = .gray
         UITabBar.appearance().tintColor = UIColor(Color.black)
         appearance.backgroundColor = UIColor(Color.pinkColor.opacity(0.5))
@@ -22,60 +27,68 @@ struct ContentView: View {
         UINavigationBar.appearance().compactAppearance = appearance
         UINavigationBar.appearance().scrollEdgeAppearance = appearance
     }
-
     
     var body: some View {
+        
         TabView{
+            // my plants page
             
-            Text("Hello")
+            MyPlantsPage(userID: userID)
                 .tabItem{
                     Image("ic-myplants")
-                    .renderingMode(.template)
+                        .renderingMode(.template)
                 }
             //end of my plants tab
-        
-//----------------------------------------------------------------------------------------------
+            
             
             //search plants tab
-           SearchPlantsView()
-            .tabItem {
-                Image("ic-searchplants")
-                .renderingMode(.template)
-            }
+            SearchPlantsView()
+                .tabItem {
+                    Image("ic-searchplants")
+                        .renderingMode(.template)
+                }
             //end of search plants tab
 
-//----------------------------------------------------------------------------------------------
             
             //plant trade tab
-            Text("Hello")
+           PlantTradePage(userID: userID)
                 .tabItem{
                     Image("ic-planttrade")
-                    .renderingMode(.template)
+                        .renderingMode(.template)
                 }
             //end of plant trade tab
             
-//----------------------------------------------------------------------------------------------
+
             
-            //nurseries tab
-            Text("Hello")
-                .tabItem{
-                    Image("ic-nurseries")
-                    .renderingMode(.template)
-                }
+            if locationAuthorized{
+                HomeView()
+                   .tabItem {
+                       Image("ic-nurseries")
+                       .renderingMode(.template)
+                    }
+           }
+           if locationAuthorized == false{
+               LocationRequestView()
+                   .tabItem {
+                       Image("ic-nurseries")
+                       .renderingMode(.template)
+                   }
+           }
             //end of nurseries tab
             
-//----------------------------------------------------------------------------------------------
+
             
         }//end of tab view
         .accentColor(.black)
-        .onAppear{
-            UITabBar.appearance().barTintColor = UIColor(Color.pinkColor.opacity(0.5))
-        }
-    }//end of main view
-}
+    }
+}//end of main view
+
+
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
+        
         ContentView()
     }
 }
