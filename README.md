@@ -46,6 +46,7 @@ Launch Xcode and open the project.
 Ensure you have CocoaPods installed:
 pod install
 Open the .xcworkspace file.
+
 4️⃣ Run the App ▶️
 
 Select a simulator or a connected iOS device and hit Run (Cmd + R).
