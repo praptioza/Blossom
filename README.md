@@ -30,6 +30,12 @@
 
 ---
 
+# Design
+
+### 🔗 [Click here to view Figma Design](https://www.figma.com/design/Q21aaQoATzLOOXwgeNaBnB/%F0%9F%8C%B8Blossom?node-id=0-1&p=f&t=5QJ77KgIykd8tmqo-0)
+
+----
+
 ## 📥 Installation  
 
 1️⃣ **Clone the Repository** 🛠️  
